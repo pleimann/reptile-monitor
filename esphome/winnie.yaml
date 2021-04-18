@@ -1,0 +1,7 @@
+substitutions:
+  devicename: winnie
+  upper_devicename: Winnie
+  static_ip: 192.168.40.200
+  dallas_address: '0x1401204C7BA94928'
+
+<<: !include enclosure_base.yaml
