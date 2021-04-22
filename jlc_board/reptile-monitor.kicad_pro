@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 2.3,
+          "width": 2.3
         },
         "silk_line_width": 0.15239999999999998,
         "silk_text_italic": false,
@@ -58,7 +58,10 @@
       "drc_exclusions": [
         "clearance|137465232|85985244|bb79c680-13e2-49aa-bb28-ea1d61da56cd|100ec642-3f9e-43a8-9834-7d109803268d",
         "clearance|137465232|86285244|bb79c680-13e2-49aa-bb28-ea1d61da56cd|a50c4e9c-6c36-4ddd-a305-b32618d5e640",
-        "clearance|137465232|86785244|a50c4e9c-6c36-4ddd-a305-b32618d5e640|febd6d66-dc74-4449-8e13-4c4f962a214f"
+        "clearance|137465232|86785244|a50c4e9c-6c36-4ddd-a305-b32618d5e640|febd6d66-dc74-4449-8e13-4c4f962a214f",
+        "clearance|137795982|75312244|bb79c680-13e2-49aa-bb28-ea1d61da56cd|100ec642-3f9e-43a8-9834-7d109803268d",
+        "clearance|137795982|75612244|bb79c680-13e2-49aa-bb28-ea1d61da56cd|a50c4e9c-6c36-4ddd-a305-b32618d5e640",
+        "clearance|137795982|76112244|a50c4e9c-6c36-4ddd-a305-b32618d5e640|febd6d66-dc74-4449-8e13-4c4f962a214f"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -118,7 +121,7 @@
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.08889999999999999,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.44999999999999996
+        "min_via_diameter": 0.635
       },
       "track_widths": [
         0.0,
@@ -383,7 +386,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.127,
+        "clearance": 0.381,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
@@ -394,12 +397,12 @@
         "nets": [
           "/AC_L",
           "/AC_N",
-          "/LOAD_0",
-          "/LOAD_1"
+          "/LOAD1",
+          "/LOAD2"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.381,
+        "track_width": 2.54,
         "via_diameter": 0.6858,
         "via_drill": 0.3302,
         "wire_width": 6.0

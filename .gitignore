@@ -14,3 +14,8 @@ monitor
 winnie
 waffle
 wesley
+
+jlc_board/reptile-monitor-backups
+jlc_board/fp-info-cache
+jlc_board/fp-lib-table
+jlc_board/reptile-monitor.kicad_prl
