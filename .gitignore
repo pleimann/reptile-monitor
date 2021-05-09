@@ -6,6 +6,7 @@
 **/.piolibdeps/
 **/lib/
 **/src/
+**/*.bak
 **/platformio.ini
 /secrets.yaml
 
@@ -18,4 +19,9 @@ wesley
 jlc_board/reptile-monitor-backups
 jlc_board/fp-info-cache
 jlc_board/fp-lib-table
+jlc_board/gerbers
 jlc_board/reptile-monitor.kicad_prl
+gui/reptile-controller/generated
+gui/reptile-controller/lvgl
+gui/reptile-controller/lvgl-simulator
+gui/reptile-controller/temp
