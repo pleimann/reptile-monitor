@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Workspace\reptile-monitor\jlc_board\reptile-monitor.kicad_sch</source>
+    <date>5/10/2021 3:22:21 PM</date>
+    <tool>Eeschema (5.99.0-10457-g21fde9b629)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>reptile-monitor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0583779a-839b-42e1-9b54-47d3c2ffaf32</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Series">X7R or X5R</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Series" value="X7R or X5R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdc97291-8e22-40d3-921a-bf31a3d97240</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6da9e009-39aa-41e2-8208-532958026337</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3ac2301-b0f9-4a88-97ee-204adf6adba6</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C84419</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C84419"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f3e9d0b-d84c-4613-b819-c123f9e3aa3d</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>657395e0-786b-4289-94bd-a59706e25469</tstamps>
+    </comp>
+    <comp ref="CL1">
+      <value>20p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1648</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1648"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1035831c-ee29-4068-8f74-9086ea0c727e</tstamps>
+    </comp>
+    <comp ref="CL2">
+      <value>20p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1648</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C1648"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a81b6da7-13fd-4d96-a9ae-7279e5c4fac2</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C205445</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="LCSC" value="C205445"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e0e0520-f3ab-48dc-8481-86e5d700e272</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C205443</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="LCSC" value="C205443"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc079a75-5d2a-4a20-adc7-e530c9b8fd5b</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>39208000440</value>
+      <footprint>SamacSys_Parts:TO508P400X850X850-2P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/39215000440.pdf</datasheet>
+      <fields>
+        <field name="Description">Fuses with Leads (Through Hole) 250V 5A IEC TL TE5</field>
+        <field name="Height">4</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">39208000440</field>
+        <field name="Mouser Part Number">576-39208000440</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=576-39215000000</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="39215000000" description="Fuses with Leads (Through Hole) 250V 5A IEC TL TE5"/>
+      <property name="Description" value="Fuses with Leads (Through Hole) 250V 5A IEC TL TE5"/>
+      <property name="Height" value="4"/>
+      <property name="Mouser Part Number" value="576-39208000440"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=576-39215000000"/>
+      <property name="Manufacturer_Name" value="LITTELFUSE"/>
+      <property name="Manufacturer_Part_Number" value="39208000440"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>044ce58f-61da-4582-9ad7-9108bd9a083c</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>360 m</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1743478-0ba9-44be-91c8-6ca27d524787</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>1-WIRE</value>
+      <footprint>Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d061367-2e66-41c3-b31b-8b03c569f5fe</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>UART</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a748097-43c5-4d11-a1ae-d2237747a507</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>AC_IN</value>
+      <footprint>SamacSys_Parts:128340212</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bed1b8f-d9b6-4064-b9d7-4d3edb3a954f</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>LOAD_1</value>
+      <footprint>SamacSys_Parts:128340212</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>624d4615-09f9-4567-ab0d-77a25f6d8dfe</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>LOAD_2</value>
+      <footprint>SamacSys_Parts:128340212</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>785cebc1-b4a8-4b5b-b520-254dc0756866</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>I2C</value>
+      <footprint>Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2df5d3a1-bfdb-40d1-b9a5-680bb2c6a0de</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>ALDP105W</value>
+      <footprint>reptile-monitor:Panasonic-ALDP105W-Manufacturer_Recommended</footprint>
+      <datasheet>http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_ldp.pdf?f_cd=300242</datasheet>
+      <fields>
+        <field name="Coil Voltage">5 V</field>
+        <field name="Component Link 1 Description">Manufacturer URL</field>
+        <field name="Component Link 1 URL">http://www3.panasonic.biz/ac/ae/index.jsp</field>
+        <field name="Component Link 3 Description">Package Specification</field>
+        <field name="Component Link 3 URL">http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_ldp.pdf?f_cd=300242</field>
+        <field name="Datasheet Version">201402-T</field>
+        <field name="Electrical Life">2x10^5</field>
+        <field name="Max Switching Current">5 A AC, 3 A DC</field>
+        <field name="Max Switching Voltage">277 V AC, 30 V DC</field>
+        <field name="Mechanical LifeMinoperation">5x10^6</field>
+        <field name="Mounting Technology">Through Hole</field>
+        <field name="Nominal Operating Power">200 mW</field>
+        <field name="Package Description">4-Pin Through Hole Terminal Package, Body 20.5 x 7.2 mm</field>
+        <field name="Package Version">ASCTB193E, 02/2014</field>
+        <field name="Packing">Carton, Case</field>
+        <field name="Pb  Free">true</field>
+        <field name="Series">LD-P Relays</field>
+        <field name="category">Relay</field>
+        <field name="ciiva ids">4356012</field>
+        <field name="imported">yes</field>
+        <field name="library id">54a375f99aeb0b2c</field>
+        <field name="manufacturer">Panasonic</field>
+        <field name="package">LD-P-4-2050x720x1530</field>
+        <field name="release date">1421726836</field>
+        <field name="vault revision">454ADD16-59C6-4D2E-B291-852216FCC6FE</field>
+      </fields>
+      <libsource lib="Reptile_Monitor" part="ALDP105W" description=""/>
+      <property name="Coil Voltage" value="5 V"/>
+      <property name="Component Link 1 Description" value="Manufacturer URL"/>
+      <property name="Component Link 1 URL" value="http://www3.panasonic.biz/ac/ae/index.jsp"/>
+      <property name="Component Link 3 Description" value="Package Specification"/>
+      <property name="Component Link 3 URL" value="http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_ldp.pdf?f_cd=300242"/>
+      <property name="Datasheet Version" value="201402-T"/>
+      <property name="Electrical Life" value="2x10^5"/>
+      <property name="Max Switching Current" value="5 A AC, 3 A DC"/>
+      <property name="Max Switching Voltage" value="277 V AC, 30 V DC"/>
+      <property name="Mechanical LifeMinoperation" value="5x10^6"/>
+      <property name="Mounting Technology" value="Through Hole"/>
+      <property name="Nominal Operating Power" value="200 mW"/>
+      <property name="Package Description" value="4-Pin Through Hole Terminal Package, Body 20.5 x 7.2 mm"/>
+      <property name="Package Version" value="ASCTB193E, 02/2014"/>
+      <property name="Packing" value="Carton, Case"/>
+      <property name="Pb  Free" value="true"/>
+      <property name="Series" value="LD-P Relays"/>
+      <property name="category" value="Relay"/>
+      <property name="ciiva ids" value="4356012"/>
+      <property name="library id" value="54a375f99aeb0b2c"/>
+      <property name="manufacturer" value="Panasonic"/>
+      <property name="package" value="LD-P-4-2050x720x1530"/>
+      <property name="release date" value="1421726836"/>
+      <property name="vault revision" value="454ADD16-59C6-4D2E-B291-852216FCC6FE"/>
+      <property name="imported" value="yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fb2da76-1036-462d-a541-83d2ad337755</tstamps>
+    </comp>
+    <comp ref="K2">
+      <value>ALDP105W</value>
+      <footprint>reptile-monitor:Panasonic-ALDP105W-Manufacturer_Recommended</footprint>
+      <datasheet>http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_ldp.pdf?f_cd=300242</datasheet>
+      <fields>
+        <field name="Coil Voltage">5 V</field>
+        <field name="Component Link 1 Description">Manufacturer URL</field>
+        <field name="Component Link 1 URL">http://www3.panasonic.biz/ac/ae/index.jsp</field>
+        <field name="Component Link 3 Description">Package Specification</field>
+        <field name="Component Link 3 URL">http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_ldp.pdf?f_cd=300242</field>
+        <field name="Datasheet Version">201402-T</field>
+        <field name="Electrical Life">2x10^5</field>
+        <field name="Max Switching Current">5 A AC, 3 A DC</field>
+        <field name="Max Switching Voltage">277 V AC, 30 V DC</field>
+        <field name="Mechanical LifeMinoperation">5x10^6</field>
+        <field name="Mounting Technology">Through Hole</field>
+        <field name="Nominal Operating Power">200 mW</field>
+        <field name="Package Description">4-Pin Through Hole Terminal Package, Body 20.5 x 7.2 mm</field>
+        <field name="Package Version">ASCTB193E, 02/2014</field>
+        <field name="Packing">Carton, Case</field>
+        <field name="Pb  Free">true</field>
+        <field name="Series">LD-P Relays</field>
+        <field name="category">Relay</field>
+        <field name="ciiva ids">4356012</field>
+        <field name="imported">yes</field>
+        <field name="library id">54a375f99aeb0b2c</field>
+        <field name="manufacturer">Panasonic</field>
+        <field name="package">LD-P-4-2050x720x1530</field>
+        <field name="release date">1421726836</field>
+        <field name="vault revision">454ADD16-59C6-4D2E-B291-852216FCC6FE</field>
+      </fields>
+      <libsource lib="Reptile_Monitor" part="ALDP105W" description=""/>
+      <property name="Coil Voltage" value="5 V"/>
+      <property name="Component Link 1 Description" value="Manufacturer URL"/>
+      <property name="Component Link 1 URL" value="http://www3.panasonic.biz/ac/ae/index.jsp"/>
+      <property name="Component Link 3 Description" value="Package Specification"/>
+      <property name="Component Link 3 URL" value="http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_ldp.pdf?f_cd=300242"/>
+      <property name="Datasheet Version" value="201402-T"/>
+      <property name="Electrical Life" value="2x10^5"/>
+      <property name="Max Switching Current" value="5 A AC, 3 A DC"/>
+      <property name="Max Switching Voltage" value="277 V AC, 30 V DC"/>
+      <property name="Mechanical LifeMinoperation" value="5x10^6"/>
+      <property name="Mounting Technology" value="Through Hole"/>
+      <property name="Nominal Operating Power" value="200 mW"/>
+      <property name="Package Description" value="4-Pin Through Hole Terminal Package, Body 20.5 x 7.2 mm"/>
+      <property name="Package Version" value="ASCTB193E, 02/2014"/>
+      <property name="Packing" value="Carton, Case"/>
+      <property name="Pb  Free" value="true"/>
+      <property name="Series" value="LD-P Relays"/>
+      <property name="category" value="Relay"/>
+      <property name="ciiva ids" value="4356012"/>
+      <property name="library id" value="54a375f99aeb0b2c"/>
+      <property name="manufacturer" value="Panasonic"/>
+      <property name="package" value="LD-P-4-2050x720x1530"/>
+      <property name="release date" value="1421726836"/>
+      <property name="vault revision" value="454ADD16-59C6-4D2E-B291-852216FCC6FE"/>
+      <property name="imported" value="yes"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81a5c5b6-e7fe-493d-a079-9b65c61cb20b</tstamps>
+    </comp>
+    <comp ref="MD1">
+      <value>ESP32-WROVER-E</value>
+      <footprint>reptile-monitor:Espressif_Systems-ESP32-WROVER-0-0-MFG</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="Chip Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf</field>
+        <field name="Technical Reference Manual">https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf</field>
+        <field name="automotive">No</field>
+        <field name="bandwidth">0.1GHz</field>
+        <field name="category">UNK</field>
+        <field name="data rate">150Mbits/s</field>
+        <field name="device class L1">Integrated Circuits (ICs)</field>
+        <field name="device class L2">RF Semiconductors and Devices</field>
+        <field name="device class L3">Transceivers</field>
+        <field name="digikey description">SMD MODULE, ESP32-D0WDQ6, 32MBIT</field>
+        <field name="digikey part number">1904-1007-1-ND</field>
+        <field name="height">3.4mm</field>
+        <field name="interface">I2C,SPI,UART,I2S,Other</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">d22c16e16cd6265d</field>
+        <field name="manufacturer">Espressif Systems</field>
+        <field name="max frequency">2.5GHz</field>
+        <field name="max supply voltage">3.6V</field>
+        <field name="min supply voltage">2.3V</field>
+        <field name="mouser description">Bluetooth and Wi-Fi Module 2.4GHz to 2.5GHz 2.3V to 3.6V 38-Pin SMD Module</field>
+        <field name="mouser part number">356-ESP32-WROVER</field>
+        <field name="nominal supply current">80mA</field>
+        <field name="number of ADC channels">16</field>
+        <field name="number of GPIO">20</field>
+        <field name="package">SMD_MODULE_38</field>
+        <field name="rohs">Yes</field>
+        <field name="sensitivity">-98dBm</field>
+        <field name="temperature range high">+85°C</field>
+        <field name="temperature range low">-40°C</field>
+      </fields>
+      <libsource lib="Reptile_Monitor" part="ESP32-WROVER-E" description=""/>
+      <property name="automotive" value="No"/>
+      <property name="bandwidth" value="0.1GHz"/>
+      <property name="category" value="UNK"/>
+      <property name="data rate" value="150Mbits/s"/>
+      <property name="device class L1" value="Integrated Circuits (ICs)"/>
+      <property name="device class L2" value="RF Semiconductors and Devices"/>
+      <property name="device class L3" value="Transceivers"/>
+      <property name="digikey description" value="SMD MODULE, ESP32-D0WDQ6, 32MBIT"/>
+      <property name="digikey part number" value="1904-1007-1-ND"/>
+      <property name="height" value="3.4mm"/>
+      <property name="interface" value="I2C,SPI,UART,I2S,Other"/>
+      <property name="lead free" value="Yes"/>
+      <property name="library id" value="d22c16e16cd6265d"/>
+      <property name="manufacturer" value="Espressif Systems"/>
+      <property name="max frequency" value="2.5GHz"/>
+      <property name="max supply voltage" value="3.6V"/>
+      <property name="min supply voltage" value="2.3V"/>
+      <property name="mouser description" value="Bluetooth and Wi-Fi Module 2.4GHz to 2.5GHz 2.3V to 3.6V 38-Pin SMD Module"/>
+      <property name="mouser part number" value="356-ESP32-WROVER"/>
+      <property name="nominal supply current" value="80mA"/>
+      <property name="number of ADC channels" value="16"/>
+      <property name="number of GPIO" value="20"/>
+      <property name="package" value="SMD_MODULE_38"/>
+      <property name="rohs" value="Yes"/>
+      <property name="sensitivity" value="-98dBm"/>
+      <property name="temperature range high" value="+85°C"/>
+      <property name="temperature range low" value="-40°C"/>
+      <property name="Chip Datasheet" value="https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf"/>
+      <property name="Technical Reference Manual" value="https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5aec373-0f75-4775-b803-c5b99aa9815e</tstamps>
+    </comp>
+    <comp ref="PS1">
+      <value>HLK-PM01</value>
+      <footprint>Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx</footprint>
+      <datasheet>http://www.hlktech.net/product_detail.php?ProId=54</datasheet>
+      <libsource lib="Converter_ACDC" part="HLK-PM01" description="Compact AC/DC board mount power module 3W 5V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e801d72-ede1-45d6-a866-41a58d7a7781</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bfafd9ca-2c7f-4fe8-9c5d-ee19ab9e2a08</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100r</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22775</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C22775"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2fe921e-da35-413b-bcf6-922d7d2d5c3c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>055d311d-7baa-4b97-b60d-2c45ae7e116b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100r</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C22775</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C22775"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c674482-c91b-4fce-9507-858745aeee48</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39046f1a-a90c-4a8a-af94-3cc6ba79d1c2</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2eefd3e-045b-4583-93e9-2bb889f1e4de</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c90660df-1103-4f53-9d82-caaa34f20991</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>Varistor</value>
+      <footprint>Varistor:RV_Disc_D7mm_W3.4mm_P5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Varistor" description="Voltage dependent resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef4d5848-e859-4b0b-84e6-129baf382720</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>RST</value>
+      <footprint>reptile-monitor:Omron-B3U-1000P-MFG</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C115357</field>
+        <field name="ambient temperature range high">+70°C</field>
+        <field name="ambient temperature range low">-25°C</field>
+        <field name="automotive">No</field>
+        <field name="category">Switch</field>
+        <field name="contact current rating">50mA</field>
+        <field name="contact resistance">100mΩ</field>
+        <field name="current rating">0.05A</field>
+        <field name="device class L1">Electromechanical</field>
+        <field name="device class L2">Switches</field>
+        <field name="device class L3">Tactile Switches</field>
+        <field name="digikey description">SWITCH TACTILE SPST-NO 0.05A 12V</field>
+        <field name="digikey part number">SW1020CT-ND</field>
+        <field name="electromechanical life">200000Cycles</field>
+        <field name="height">1.75mm</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">b933800f68cdf4c7</field>
+        <field name="manufacturer">Omron</field>
+        <field name="mount">Surface Mount</field>
+        <field name="mouser part number">653-B3U-1000P</field>
+        <field name="operating force">1.5N</field>
+        <field name="package">SW_SMT_3MM2_2MM7</field>
+        <field name="rohs">Yes</field>
+        <field name="temperature range high">+70°C</field>
+        <field name="temperature range low">-25°C</field>
+        <field name="throw configuration">SPST-NO</field>
+        <field name="voltage rating DC">12V</field>
+      </fields>
+      <libsource lib="Reptile_Monitor" part="B3U-1000P" description=""/>
+      <property name="LCSC" value="C115357"/>
+      <property name="ambient temperature range high" value="+70°C"/>
+      <property name="ambient temperature range low" value="-25°C"/>
+      <property name="automotive" value="No"/>
+      <property name="category" value="Switch"/>
+      <property name="contact current rating" value="50mA"/>
+      <property name="contact resistance" value="100mΩ"/>
+      <property name="current rating" value="0.05A"/>
+      <property name="device class L1" value="Electromechanical"/>
+      <property name="device class L2" value="Switches"/>
+      <property name="device class L3" value="Tactile Switches"/>
+      <property name="digikey description" value="SWITCH TACTILE SPST-NO 0.05A 12V"/>
+      <property name="digikey part number" value="SW1020CT-ND"/>
+      <property name="electromechanical life" value="200000Cycles"/>
+      <property name="height" value="1.75mm"/>
+      <property name="lead free" value="Yes"/>
+      <property name="library id" value="b933800f68cdf4c7"/>
+      <property name="manufacturer" value="Omron"/>
+      <property name="mount" value="Surface Mount"/>
+      <property name="mouser part number" value="653-B3U-1000P"/>
+      <property name="operating force" value="1.5N"/>
+      <property name="package" value="SW_SMT_3MM2_2MM7"/>
+      <property name="rohs" value="Yes"/>
+      <property name="temperature range high" value="+70°C"/>
+      <property name="temperature range low" value="-25°C"/>
+      <property name="throw configuration" value="SPST-NO"/>
+      <property name="voltage rating DC" value="12V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4161772-3841-427b-b890-11765262645e</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>BOOT</value>
+      <footprint>reptile-monitor:Omron-B3U-1000P-MFG</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C115357</field>
+        <field name="ambient temperature range high">+70°C</field>
+        <field name="ambient temperature range low">-25°C</field>
+        <field name="automotive">No</field>
+        <field name="category">Switch</field>
+        <field name="contact current rating">50mA</field>
+        <field name="contact resistance">100mΩ</field>
+        <field name="current rating">0.05A</field>
+        <field name="device class L1">Electromechanical</field>
+        <field name="device class L2">Switches</field>
+        <field name="device class L3">Tactile Switches</field>
+        <field name="digikey description">SWITCH TACTILE SPST-NO 0.05A 12V</field>
+        <field name="digikey part number">SW1020CT-ND</field>
+        <field name="electromechanical life">200000Cycles</field>
+        <field name="height">1.75mm</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">b933800f68cdf4c7</field>
+        <field name="manufacturer">Omron</field>
+        <field name="mount">Surface Mount</field>
+        <field name="mouser part number">653-B3U-1000P</field>
+        <field name="operating force">1.5N</field>
+        <field name="package">SW_SMT_3MM2_2MM7</field>
+        <field name="rohs">Yes</field>
+        <field name="temperature range high">+70°C</field>
+        <field name="temperature range low">-25°C</field>
+        <field name="throw configuration">SPST-NO</field>
+        <field name="voltage rating DC">12V</field>
+      </fields>
+      <libsource lib="Reptile_Monitor" part="B3U-1000P" description=""/>
+      <property name="LCSC" value="C115357"/>
+      <property name="ambient temperature range high" value="+70°C"/>
+      <property name="ambient temperature range low" value="-25°C"/>
+      <property name="automotive" value="No"/>
+      <property name="category" value="Switch"/>
+      <property name="contact current rating" value="50mA"/>
+      <property name="contact resistance" value="100mΩ"/>
+      <property name="current rating" value="0.05A"/>
+      <property name="device class L1" value="Electromechanical"/>
+      <property name="device class L2" value="Switches"/>
+      <property name="device class L3" value="Tactile Switches"/>
+      <property name="digikey description" value="SWITCH TACTILE SPST-NO 0.05A 12V"/>
+      <property name="digikey part number" value="SW1020CT-ND"/>
+      <property name="electromechanical life" value="200000Cycles"/>
+      <property name="height" value="1.75mm"/>
+      <property name="lead free" value="Yes"/>
+      <property name="library id" value="b933800f68cdf4c7"/>
+      <property name="manufacturer" value="Omron"/>
+      <property name="mount" value="Surface Mount"/>
+      <property name="mouser part number" value="653-B3U-1000P"/>
+      <property name="operating force" value="1.5N"/>
+      <property name="package" value="SW_SMT_3MM2_2MM7"/>
+      <property name="rohs" value="Yes"/>
+      <property name="temperature range high" value="+70°C"/>
+      <property name="temperature range low" value="-25°C"/>
+      <property name="throw configuration" value="SPST-NO"/>
+      <property name="voltage rating DC" value="12V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5aa9cae-621b-4c13-b76c-339ba7e3d0d5</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AP2112M-3.3</value>
+      <footprint>SamacSys_Parts:SOIC127P600X170-8N</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
+      <fields>
+        <field name="Description">LDO Voltage Regulators LDO CMOS HiCurr</field>
+        <field name="Height">1.7</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">AP2112M-3.3TRG1</field>
+        <field name="Mouser Part Number">621-AP2112M-3.3TRG1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2112M-33TRG1?qs=5V6w%252Be2aIqa1YM8VADFBsQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="AP2112M-3.3TRG1" description="LDO Voltage Regulators LDO CMOS HiCurr"/>
+      <property name="Description" value="LDO Voltage Regulators LDO CMOS HiCurr"/>
+      <property name="Height" value="1.7"/>
+      <property name="Mouser Part Number" value="621-AP2112M-3.3TRG1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2112M-33TRG1?qs=5V6w%252Be2aIqa1YM8VADFBsQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="AP2112M-3.3TRG1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11d59939-2003-4c22-8adf-709aaaf5db95</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>NUD3105DMT1G</value>
+      <footprint>reptile-monitor:ON_Semi-318F-0-0-0</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NUD3105D-D.PDF</datasheet>
+      <fields>
+        <field name="Current - Output (Max)">300mA</field>
+        <field name="Voltage - Load">6V (Max)</field>
+        <field name="category">IC</field>
+        <field name="digikey description">IC INDCT LOAD DRVR DUAL SC74-6</field>
+        <field name="digikey part number">NUD3105DMT1GOSCT-ND</field>
+        <field name="lead free">yes</field>
+        <field name="library id">2e5d76ba3a90d6c9</field>
+        <field name="manufacturer">ON Semi</field>
+        <field name="mouser part number">863-NUD3105DMT1G</field>
+        <field name="package">SC-74-6</field>
+        <field name="rohs">yes</field>
+        <field name="temperature range high">+85°C</field>
+        <field name="temperature range low">-40°C</field>
+        <field name="voltage">6V</field>
+      </fields>
+      <libsource lib="Reptile_Monitor" part="NUD3105DMT1G" description=""/>
+      <property name="Current - Output (Max)" value="300mA"/>
+      <property name="Voltage - Load" value="6V (Max)"/>
+      <property name="category" value="IC"/>
+      <property name="digikey description" value="IC INDCT LOAD DRVR DUAL SC74-6"/>
+      <property name="digikey part number" value="NUD3105DMT1GOSCT-ND"/>
+      <property name="lead free" value="yes"/>
+      <property name="library id" value="2e5d76ba3a90d6c9"/>
+      <property name="manufacturer" value="ON Semi"/>
+      <property name="mouser part number" value="863-NUD3105DMT1G"/>
+      <property name="package" value="SC-74-6"/>
+      <property name="rohs" value="yes"/>
+      <property name="temperature range high" value="+85°C"/>
+      <property name="temperature range low" value="-40°C"/>
+      <property name="voltage" value="6V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed450745-4a90-4b82-aa4c-d25c52fd2e8c9a4e9d3e-16b2-48d8-8c17-ca73b9671a33</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>32.768KHz 12.5p</value>
+      <footprint>reptile-monitor:Crystal_SMD_3215-2Pin_3.2x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C271654</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
+      <property name="LCSC" value="C271654"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reptile-monitor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a5892d6-e953-4d89-a82a-62d65e598414</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Converter_ACDC" part="HLK-PM01">
+      <description>Compact AC/DC board mount power module 3W 5V</description>
+      <docs>http://www.hlktech.net/product_detail.php?ProId=54</docs>
+      <footprints>
+        <fp>Converter*ACDC*HiLink*HLK?PM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PS1</field>
+        <field name="Value">HLK-PM01</field>
+        <field name="Footprint">Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx</field>
+        <field name="Datasheet">http://www.hlktech.net/product_detail.php?ProId=54</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AC/L" type="power_in"/>
+        <pin num="2" name="AC/N" type="power_in"/>
+        <pin num="3" name="-Vout" type="passive"/>
+        <pin num="4" name="+Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_Small">
+      <description>Two pin crystal, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Varistor">
+      <description>Voltage dependent resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RV_*</fp>
+        <fp>Varistor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">Varistor</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reptile_Monitor" part="ALDP105W">
+      <docs>http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_ldp.pdf?f_cd=300242</docs>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">ALDP105W</field>
+        <field name="Footprint">Panasonic-ALDP105W-*</field>
+        <field name="Datasheet">http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_ldp.pdf?f_cd=300242</field>
+        <field name="Coil Voltage">5 V</field>
+        <field name="Component Link 1 Description">Manufacturer URL</field>
+        <field name="Component Link 1 URL">http://www3.panasonic.biz/ac/ae/index.jsp</field>
+        <field name="Component Link 3 Description">Package Specification</field>
+        <field name="Component Link 3 URL">http://www3.panasonic.biz/ac/e_download/control/relay/power/catalog/mech_eng_ldp.pdf?f_cd=300242</field>
+        <field name="Datasheet Version">201402-T</field>
+        <field name="Electrical Life">2x10^5</field>
+        <field name="Max Switching Current">5 A AC, 3 A DC</field>
+        <field name="Max Switching Voltage">277 V AC, 30 V DC</field>
+        <field name="Mechanical LifeMinoperation">5x10^6</field>
+        <field name="Mounting Technology">Through Hole</field>
+        <field name="Nominal Operating Power">200 mW</field>
+        <field name="Package Description">4-Pin Through Hole Terminal Package, Body 20.5 x 7.2 mm</field>
+        <field name="Package Version">ASCTB193E, 02/2014</field>
+        <field name="Packing">Carton, Case</field>
+        <field name="Pb  Free">true</field>
+        <field name="Series">LD-P Relays</field>
+        <field name="category">Relay</field>
+        <field name="ciiva ids">4356012</field>
+        <field name="library id">54a375f99aeb0b2c</field>
+        <field name="manufacturer">Panasonic</field>
+        <field name="package">LD-P-4-2050x720x1530</field>
+        <field name="release date">1421726836</field>
+        <field name="vault revision">454ADD16-59C6-4D2E-B291-852216FCC6FE</field>
+        <field name="imported">yes</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="NO" type="passive"/>
+        <pin num="3" name="COM" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reptile_Monitor" part="B3U-1000P">
+      <docs>https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">B3U-1000P</field>
+        <field name="Footprint">Omron-B3U-1000P-*</field>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf</field>
+        <field name="ambient temperature range high">+70°C</field>
+        <field name="ambient temperature range low">-25°C</field>
+        <field name="automotive">No</field>
+        <field name="category">Switch</field>
+        <field name="contact current rating">50mA</field>
+        <field name="contact resistance">100mΩ</field>
+        <field name="current rating">0.05A</field>
+        <field name="device class L1">Electromechanical</field>
+        <field name="device class L2">Switches</field>
+        <field name="device class L3">Tactile Switches</field>
+        <field name="digikey description">SWITCH TACTILE SPST-NO 0.05A 12V</field>
+        <field name="digikey part number">SW1020CT-ND</field>
+        <field name="electromechanical life">200000Cycles</field>
+        <field name="height">1.75mm</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">b933800f68cdf4c7</field>
+        <field name="manufacturer">Omron</field>
+        <field name="mount">Surface Mount</field>
+        <field name="mouser part number">653-B3U-1000P</field>
+        <field name="operating force">1.5N</field>
+        <field name="package">SW_SMT_3MM2_2MM7</field>
+        <field name="rohs">Yes</field>
+        <field name="temperature range high">+70°C</field>
+        <field name="temperature range low">-25°C</field>
+        <field name="throw configuration">SPST-NO</field>
+        <field name="voltage rating DC">12V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reptile_Monitor" part="ESP32-WROVER-E">
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>Espressif_Systems-ESP32-WROVER*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MD</field>
+        <field name="Value">ESP32-WROVER-E</field>
+        <field name="Footprint">reptile-monitor:Espressif_Systems-ESP32-WROVER-0-0-MFG</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf</field>
+        <field name="Chip Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf</field>
+        <field name="Technical Reference Manual">https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf</field>
+        <field name="automotive">No</field>
+        <field name="bandwidth">0.1GHz</field>
+        <field name="category">UNK</field>
+        <field name="data rate">150Mbits/s</field>
+        <field name="device class L1">Integrated Circuits (ICs)</field>
+        <field name="device class L2">RF Semiconductors and Devices</field>
+        <field name="device class L3">Transceivers</field>
+        <field name="digikey description">SMD MODULE, ESP32-D0WDQ6, 32MBIT</field>
+        <field name="digikey part number">1904-1007-1-ND</field>
+        <field name="height">3.4mm</field>
+        <field name="interface">I2C,SPI,UART,I2S,Other</field>
+        <field name="lead free">Yes</field>
+        <field name="library id">d22c16e16cd6265d</field>
+        <field name="manufacturer">Espressif Systems</field>
+        <field name="max frequency">2.5GHz</field>
+        <field name="max supply voltage">3.6V</field>
+        <field name="min supply voltage">2.3V</field>
+        <field name="mouser description">Bluetooth and Wi-Fi Module 2.4GHz to 2.5GHz 2.3V to 3.6V 38-Pin SMD Module</field>
+        <field name="mouser part number">356-ESP32-WROVER</field>
+        <field name="nominal supply current">80mA</field>
+        <field name="number of ADC channels">16</field>
+        <field name="number of GPIO">20</field>
+        <field name="package">SMD_MODULE_38</field>
+        <field name="rohs">Yes</field>
+        <field name="sensitivity">-98dBm</field>
+        <field name="temperature range high">+85°C</field>
+        <field name="temperature range low">-40°C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD33" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="IO36" type="bidirectional"/>
+        <pin num="5" name="IO39" type="bidirectional"/>
+        <pin num="6" name="IO34" type="bidirectional"/>
+        <pin num="7" name="IO35" type="bidirectional"/>
+        <pin num="8" name="IO32" type="bidirectional"/>
+        <pin num="9" name="IO33" type="bidirectional"/>
+        <pin num="10" name="IO25" type="bidirectional"/>
+        <pin num="11" name="IO26" type="bidirectional"/>
+        <pin num="12" name="IO27" type="bidirectional"/>
+        <pin num="13" name="IO14" type="bidirectional"/>
+        <pin num="14" name="IO12" type="bidirectional"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="IO13" type="bidirectional"/>
+        <pin num="17" name="NC" type="no_connect"/>
+        <pin num="18" name="NC" type="no_connect"/>
+        <pin num="19" name="NC" type="no_connect"/>
+        <pin num="20" name="NC" type="no_connect"/>
+        <pin num="21" name="NC" type="no_connect"/>
+        <pin num="22" name="NC" type="no_connect"/>
+        <pin num="23" name="IO15" type="bidirectional"/>
+        <pin num="24" name="IO2" type="bidirectional"/>
+        <pin num="25" name="IO0" type="bidirectional"/>
+        <pin num="26" name="IO4" type="bidirectional"/>
+        <pin num="27" name="NC" type="no_connect"/>
+        <pin num="28" name="NC" type="no_connect"/>
+        <pin num="29" name="IO5" type="bidirectional"/>
+        <pin num="30" name="IO18" type="bidirectional"/>
+        <pin num="31" name="IO19" type="bidirectional"/>
+        <pin num="32" name="NC" type="no_connect"/>
+        <pin num="33" name="IO21" type="bidirectional"/>
+        <pin num="34" name="RXD0" type="input"/>
+        <pin num="35" name="TXD0" type="output"/>
+        <pin num="36" name="IO22" type="bidirectional"/>
+        <pin num="37" name="IO23" type="bidirectional"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reptile_Monitor" part="NUD3105DMT1G">
+      <docs>http://www.onsemi.com/pub_link/Collateral/NUD3105D-D.PDF</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NUD3105DMT1G</field>
+        <field name="Footprint">ON_Semi-318F-0-0-*</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/NUD3105D-D.PDF</field>
+        <field name="Current - Output (Max)">300mA</field>
+        <field name="Voltage - Load">6V (Max)</field>
+        <field name="category">IC</field>
+        <field name="digikey description">IC INDCT LOAD DRVR DUAL SC74-6</field>
+        <field name="digikey part number">NUD3105DMT1GOSCT-ND</field>
+        <field name="lead free">yes</field>
+        <field name="library id">2e5d76ba3a90d6c9</field>
+        <field name="manufacturer">ON Semi</field>
+        <field name="mouser part number">863-NUD3105DMT1G</field>
+        <field name="package">SC-74-6</field>
+        <field name="rohs">yes</field>
+        <field name="temperature range high">+85°C</field>
+        <field name="temperature range low">-40°C</field>
+        <field name="voltage">6V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1_Source" type="unspecified"/>
+        <pin num="2" name="1_Gate" type="unspecified"/>
+        <pin num="3" name="2_Drain" type="unspecified"/>
+        <pin num="4" name="2_Source" type="unspecified"/>
+        <pin num="5" name="2_Gate" type="unspecified"/>
+        <pin num="6" name="1_Drain" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="39215000000">
+      <description>Fuses with Leads (Through Hole) 250V 5A IEC TL TE5</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/39215000000.pdf</docs>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">39215000000</field>
+        <field name="Footprint">TO508P400X850X850-2P</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/39215000000.pdf</field>
+        <field name="Description">Fuses with Leads (Through Hole) 250V 5A IEC TL TE5</field>
+        <field name="Height">4</field>
+        <field name="Mouser Part Number">576-39215000000</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=576-39215000000</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">39215000000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="AP2112M-3.3TRG1">
+      <description>LDO Voltage Regulators LDO CMOS HiCurr</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2112.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">AP2112M-3.3TRG1</field>
+        <field name="Footprint">SOIC127P600X170-8N</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP2112.pdf</field>
+        <field name="Description">LDO Voltage Regulators LDO CMOS HiCurr</field>
+        <field name="Height">1.7</field>
+        <field name="Mouser Part Number">621-AP2112M-3.3TRG1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2112M-33TRG1?qs=5V6w%252Be2aIqa1YM8VADFBsQ%3D%3D</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">AP2112M-3.3TRG1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="passive"/>
+        <pin num="2" name="NC_1" type="passive"/>
+        <pin num="3" name="NC_2" type="passive"/>
+        <pin num="4" name="NC_3" type="passive"/>
+        <pin num="5" name="EN" type="passive"/>
+        <pin num="6" name="GND_1" type="passive"/>
+        <pin num="7" name="GND_2" type="passive"/>
+        <pin num="8" name="VIN" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\5.99\share\kicad\library/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\5.99\share\kicad\library/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Converter_ACDC">
+      <uri>C:\Program Files\KiCad\5.99\share\kicad\library/Converter_ACDC.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\5.99\share\kicad\library/Device.kicad_sym</uri>
+    </library>
+    <library logical="Reptile_Monitor">
+      <uri>C:\Workspace\reptile-monitor\jlc_board/reptile-monitor.kicad_sym</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/mike/AppData/Local/KiCad/5.99/symbols/SamacSys_Parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MD1" pin="2" pinfunction="VDD33" pintype="power_in"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VOUT" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="K1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="K2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="PS1" pin="4" pinfunction="+Vout" pintype="power_out"/>
+    </net>
+    <net code="3" name="/AC_L">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/AC_N">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="PS1" pin="2" pinfunction="AC/N" pintype="power_in"/>
+      <node ref="RV1" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/EN">
+      <node ref="MD1" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/FUSED_AC_L">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="K1" pin="3" pinfunction="COM" pintype="passive"/>
+      <node ref="K2" pin="3" pinfunction="COM" pintype="passive"/>
+      <node ref="PS1" pin="1" pinfunction="AC/L" pintype="power_in"/>
+      <node ref="RV1" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/IO0">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="MD1" pin="25" pinfunction="IO0" pintype="bidirectional"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/IO4">
+      <node ref="MD1" pin="26" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/IO5">
+      <node ref="MD1" pin="29" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/IO18">
+      <node ref="MD1" pin="30" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/IO19">
+      <node ref="MD1" pin="31" pinfunction="IO19" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/IO21">
+      <node ref="MD1" pin="33" pinfunction="IO21" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/IO22">
+      <node ref="MD1" pin="36" pinfunction="IO22" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/IO23">
+      <node ref="MD1" pin="37" pinfunction="IO23" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/IO25">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="MD1" pin="10" pinfunction="IO25" pintype="bidirectional"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/IO26">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="MD1" pin="11" pinfunction="IO26" pintype="bidirectional"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="/IO27">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="MD1" pin="12" pinfunction="IO27" pintype="bidirectional"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/IO34">
+      <node ref="MD1" pin="6" pinfunction="IO34" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/IO35">
+      <node ref="MD1" pin="7" pinfunction="IO35" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/IO36">
+      <node ref="MD1" pin="4" pinfunction="IO36" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/IO39">
+      <node ref="MD1" pin="5" pinfunction="IO39" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/LOAD1">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K1" pin="2" pinfunction="NO" pintype="passive"/>
+    </net>
+    <net code="23" name="/LOAD2">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K2" pin="2" pinfunction="NO" pintype="passive"/>
+    </net>
+    <net code="24" name="/PWR_EN">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="EN" pintype="passive"/>
+    </net>
+    <net code="25" name="/RLY1">
+      <node ref="K1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="1_Drain" pintype="unspecified"/>
+    </net>
+    <net code="26" name="/RLY2">
+      <node ref="K2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="2_Drain" pintype="unspecified"/>
+    </net>
+    <net code="27" name="CS0">
+      <node ref="MD1" pin="23" pinfunction="HSPI_CS0" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="CL1" pin="2" pintype="passive"/>
+      <node ref="CL2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="MD1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="MD1" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="MD1" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="MD1" pin="39" pinfunction="GND" pintype="power_in"/>
+      <node ref="PS1" pin="3" pinfunction="-Vout" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GND_1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="1_Source" pintype="unspecified"/>
+      <node ref="U2" pin="4" pinfunction="2_Source" pintype="unspecified"/>
+    </net>
+    <net code="29" name="LED">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="MD1" pin="24" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="MISO">
+      <node ref="MD1" pin="14" pinfunction="HSPI_MISO" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="2_Gate" pintype="unspecified"/>
+    </net>
+    <net code="31" name="MOSI">
+      <node ref="MD1" pin="16" pinfunction="HSPI_MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VIN" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(CL1-Pad1)">
+      <node ref="CL1" pin="1" pintype="passive"/>
+      <node ref="MD1" pin="8" pinfunction="XTAL_32K_P" pintype="bidirectional"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(CL2-Pad1)">
+      <node ref="CL2" pin="1" pintype="passive"/>
+      <node ref="MD1" pin="9" pinfunction="XTAL_32K_N" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="RXD0">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="MD1" pin="34" pinfunction="RXD0" pintype="input"/>
+    </net>
+    <net code="39" name="SCLK">
+      <node ref="MD1" pin="13" pinfunction="HSPI_SCLK" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="1_Gate" pintype="unspecified"/>
+    </net>
+    <net code="40" name="TXD0">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="MD1" pin="35" pinfunction="TXD0" pintype="output"/>
+    </net>
+    <net code="41" name="unconnected-(MD1-Pad17)">
+      <node ref="MD1" pin="17" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(MD1-Pad18)">
+      <node ref="MD1" pin="18" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(MD1-Pad19)">
+      <node ref="MD1" pin="19" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(MD1-Pad20)">
+      <node ref="MD1" pin="20" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(MD1-Pad21)">
+      <node ref="MD1" pin="21" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(MD1-Pad22)">
+      <node ref="MD1" pin="22" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(MD1-Pad27)">
+      <node ref="MD1" pin="27" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(MD1-Pad28)">
+      <node ref="MD1" pin="28" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(MD1-Pad32)">
+      <node ref="MD1" pin="32" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="NC_3" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

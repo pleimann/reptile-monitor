@@ -1,30 +1,31 @@
-Id,Designator,Package,Quantity,Designation,Supplier and ref,LCSC Part #,04/17/21,,,
-17,"SW1,SW2",Alps_SKRK,1,"BOOT, RESET",LCSC,C115357 ,10,,,
-9,CL3,C_0603_1608Metric,1,10u,LCSC,C85713 ,100,,,
-13,"CL1,C5,CL2,C6",C_0603_1608Metric,4,20p,LCSC,C1648,200,,,
-16,C8,C_0603_1608Metric,1,22u,LCSC,C84419,100,,,
-18,"C10,C3,C2,C7,C9,C4",C_0603_1608Metric,6,0.1u,LCSC,C14663,200,,,
-11,PS1,Converter_ACDC_HiLink_HLK-PMxx,1,HLK-PM01,LCSC,C209903 ,1,,,
-12,Y1,Crystal_SMD_3215-2Pin_3.2x1.5mm,1,32.768KHz 12.5p,LCSC,C271654,10,,,
-33,U1,ESP32-S2-WROVER,1,ESP32-S2-WROVER,,C701350,,Digi-Key,1965-ESP32-S2-WROVERCT-ND ,
-2,"D1,D2",LED_0603_1608Metric,2,LED,LCSC,C192316 ,40,,,
-5,"J7,J8,J2",Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical,3,LOAD0,LCSC,C192562 ,6,,,
-10,"U5,U4",ON_Semiconductor-318-08-01_2018-AS,2,MDC3105LT1G,LCSC,C81162 ,4,,,
-28,J3,PinHeader_2x06_P2.54mm_Vertical,1,Conn_01x08,LCSC,C706896 ,5,,,
-3,"R12,R11,R1,R10",R_0603_1608Metric,4,10k,LCSC,C441897 ,40,,,
-14,"R4,R7",R_0603_1608Metric,2,22r,LCSC,C491194 ,40,,,
-15,"R3,R2",R_0603_1608Metric,2,5.1k,,C163928,,,,
-19,"R8,R13",R_0603_1608Metric,2,100r,LCSC,C22775,200,,,
-24,R5,R_0603_1608Metric,1,2.2k,LCSC,C427304 ,40,,,
-27,R9,R_0603_1608Metric,1,500r,LCSC,C336878 ,40,,,
-29,R6,R_0603_1608Metric,1,1k,LCSC,C491172 ,40,,,
-32,U3,SOT-23-5,1,AP2112K-3.3TRG1,,C51118 ,,Mouser,621-AP2112K-3.3TRG1 ,20
-23,"K1,K2",TE_Connectivity-1462041-7-0-0,2,1462041-7,,,,,,
-1,TP6,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,1,VBUS,,,,,,
-4,TP1,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,1,3V3,,,,,,
-7,TP2,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,1,SRC,,,,,,
-20,TP4,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,1,5V,,,,,,
-25,TP5,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,1,VCC,,,,,,
-26,TP3,TestPoint_THTPad_1.0x1.0mm_Drill0.5mm,1,GND,,,,,,
-22,U2,Texas_Instruments-TPS2112PW,1,TPS2112PW,LCSC,C1524006 ,,,,
-8,J1,USB_C_Receptacle_HRO_TYPE-C-31-M-12,1,USB_C_Receptacle_USB2.0,LCSC,C165948 ,5,,,
+"Source:","C:\Workspace\reptile-monitor\jlc_board\reptile-monitor.kicad_sch"
+"Date:","5/10/2021 3:22:21 PM"
+"Tool:","Eeschema (5.99.0-10457-g21fde9b629)"
+"Generator:","C:\Program Files\KiCad\5.99\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py"
+"Component Count:","35"
+"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
+"C1, C2, ","2","1u","C_Small","Capacitor_SMD:C_0805_2012Metric","Unpolarized capacitor, small symbol",""
+"C3, C4, C6, ","3","0.1u","C_Small","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor, small symbol",""
+"C5, ","1","22u","C_Small","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor, small symbol",""
+"CL1, CL2, ","2","20p","C_Small","Capacitor_SMD:C_0603_1608Metric","Unpolarized capacitor, small symbol",""
+"D1, D2, ","2","LED","LED_Small","LED_SMD:LED_0603_1608Metric","Light emitting diode, small symbol",""
+"F1, ","1","39208000440","39215000000","SamacSys_Parts:TO508P400X850X850-2P","Fuses with Leads (Through Hole) 250V 5A IEC TL TE5",""
+"FB1, ","1","360 m","FerriteBead_Small","Capacitor_SMD:C_0805_2012Metric","Ferrite bead, small symbol",""
+"J1, ","1","1-WIRE","Conn_01x03_Male","Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal","Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"J2, ","1","UART","Conn_01x04","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"J3, ","1","AC_IN","Screw_Terminal_01x02","SamacSys_Parts:128340212","Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"J4, ","1","LOAD_1","Screw_Terminal_01x02","SamacSys_Parts:128340212","Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"J5, ","1","LOAD_2","Screw_Terminal_01x02","SamacSys_Parts:128340212","Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"J8, ","1","I2C","Conn_01x04_Male","Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal","Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",""
+"K1, K2, ","2","ALDP105W","ALDP105W","reptile-monitor:Panasonic-ALDP105W-Manufacturer_Recommended","",""
+"MD1, ","1","ESP32-WROVER-E","ESP32-WROVER-E","reptile-monitor:Espressif_Systems-ESP32-WROVER-0-0-MFG","",""
+"PS1, ","1","HLK-PM01","HLK-PM01","Converter_ACDC:Converter_ACDC_HiLink_HLK-PMxx","Compact AC/DC board mount power module 3W 5V",""
+"R1, R3, ","2","10k","R_Small","Resistor_SMD:R_0603_1608Metric","Resistor, small symbol",""
+"R2, R4, ","2","100r","R_Small","Resistor_SMD:R_0603_1608Metric","Resistor, small symbol",""
+"R5, R6, R7, ","3","4.7k","R_Small","Resistor_SMD:R_0603_1608Metric","Resistor, small symbol",""
+"RV1, ","1","Varistor","Varistor","Varistor:RV_Disc_D7mm_W3.4mm_P5mm","Voltage dependent resistor",""
+"SW1, ","1","RST","B3U-1000P","reptile-monitor:Omron-B3U-1000P-MFG","",""
+"SW2, ","1","BOOT","B3U-1000P","reptile-monitor:Omron-B3U-1000P-MFG","",""
+"U1, ","1","AP2112M-3.3","AP2112M-3.3TRG1","SamacSys_Parts:SOIC127P600X170-8N","LDO Voltage Regulators LDO CMOS HiCurr",""
+"U2, ","1","NUD3105DMT1G","NUD3105DMT1G","reptile-monitor:ON_Semi-318F-0-0-0","",""
+"Y1, ","1","32.768KHz 12.5p","Crystal_Small","reptile-monitor:Crystal_SMD_3215-2Pin_3.2x1.5mm","Two pin crystal, small symbol",""
