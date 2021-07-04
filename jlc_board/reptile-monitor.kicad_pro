@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.127,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.508
         }
       },
@@ -154,7 +154,7 @@
           "drill": 0.381
         }
       ],
-      "zones_allow_external_fillets": false,
+      "zones_allow_external_fillets": true,
       "zones_use_no_outline": true
     },
     "layer_presets": []
@@ -404,13 +404,7 @@
         "microvia_diameter": 0.6858,
         "microvia_drill": 0.3302,
         "name": "HV",
-        "nets": [
-          "/AC_L",
-          "/AC_N",
-          "/FUSED_AC_L",
-          "/LOAD1",
-          "/LOAD2"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.54,
@@ -432,9 +426,8 @@
           "+3V3",
           "+5V",
           "/PWR_EN",
-          "/RLY1",
-          "/RLY2",
-          "GND"
+          "GND",
+          "Net-(D3-Pad2)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
