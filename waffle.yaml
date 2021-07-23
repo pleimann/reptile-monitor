@@ -1,7 +1,0 @@
-substitutions:
-  devicename: waffle
-  upper_devicename: Waffle
-  static_ip: 192.168.40.239
-  dallas_address: '0x1001204C16D1DC28'
-
-<<: !include enclosure_base.yaml

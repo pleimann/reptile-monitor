@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "reptile-monitor-power")(type "KiCad")(uri "${KIPRJMOD}/reptile-monitor-power.kicad_sym")(options "")(descr ""))
+  (lib (name "SamacSys_Parts")(type "Legacy")(uri "C:/Users/mike/AppData/Local/KiCad/5.99/symbols/SamacSys_Parts.lib")(options "")(descr ""))
+)

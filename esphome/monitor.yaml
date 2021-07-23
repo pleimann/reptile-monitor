@@ -67,24 +67,43 @@ binary_sensor:
     id: tdisplay_button_input_0
     on_click:
       then:
-        - homeassistant.service:
-            service: switch.toggle
-            data:
-              entity_id: switch.wesley_lights
+        - lambda: |-
+            if (id(selected_enclosure) < 2) {
+              id(selected_enclosure) += 1;
+            } else {
+              id(selected_enclosure) = 0;
+            }
+
         - component.update: oled_display
 
   - platform: gpio
     pin:
       number: GPIO35
       inverted: true
+      mode: INPUT_PULLUP
     name: "T-Display Button Input 1"
     id: tdisplay_button_input_1
     on_click:
       then:
         - homeassistant.service:
             service: switch.toggle
-            data:
-              entity_id: switch.winnie_lights
+            # data:
+            #   entity_id: switch.winnie_lights
+            data_template:
+              entity_id: switch.{{ selected_light_switch }}
+            variables:
+              selected_light_switch: |-
+                switch(id(selected_enclosure)) {
+                  case 0:
+                    return "wesley_lights";
+            
+                  case 1:
+                    return "winnie_lights";
+            
+                  case 2:
+                    return "waffle_lights";
+                }
+
         - component.update: oled_display
 
 # We can still control the backlight independently
@@ -176,6 +195,13 @@ color:
     green: 0%
     blue: 0%
 
+# Example configuration entry
+globals:
+  - id: selected_enclosure
+    type: int
+    restore_value: no
+    initial_value: '0'
+
 display:
   - platform: st7789v
     id: oled_display
@@ -207,27 +233,30 @@ display:
         { "Waffle", id(waffle_uth_temp).state, id(waffle_lights).state, id(waffle_uth).state }
       };
 
-      int x_offset = 0;
+      int x_offset = 10;
       int y_offset = 18;
       for (int i=0; i < 3; i++) {
-        it.line(x_offset, y_offset, display_width, y_offset);
-        
+        it.line(0, y_offset, display_width, y_offset);
+
+        if(i == id(selected_enclosure)) {
+          it.filled_rectangle(0, y_offset, x_offset - 2, row_height, id(color_white));
+        }
+
         it.print(x_offset, y_offset + 2, id(arial_24), enclosures[i].name);
         
         if (enclosures[i].lights_state) {
-          it.image(0, y_offset + subrow_height + 2, id(lightbulb_on), id(color_black), id(color_yellow));
+          it.image(x_offset, y_offset + subrow_height + 2, id(lightbulb_on), id(color_black), id(color_yellow));
         } else {
-          it.image(0, y_offset + subrow_height + 2, id(lightbulb_off), id(color_black), id(color_white));
+          it.image(x_offset, y_offset + subrow_height + 2, id(lightbulb_off), id(color_black), id(color_white));
         }
 
         if (enclosures[i].uth_state) {
-          it.printf(30, y_offset + subrow_height + 2, id(arial_24), id(color_red), "%.1f°F", enclosures[i].uth_temp);
-        //  it.image(30, y_offset + 3 + subrow_height, id(uth_on), id(color_black), id(color_red));
+          it.printf(x_offset + 30, y_offset + subrow_height + 2, id(arial_24), id(color_red), "%.1f°F", enclosures[i].uth_temp);
+        //  it.image(x_offset + 30, y_offset + 3 + subrow_height, id(uth_on), id(color_black), id(color_red));
         } else {
-          it.printf(30, y_offset + subrow_height + 2, id(arial_24), id(color_white), "%.1f°F", enclosures[i].uth_temp);
-        //  it.image(30, y_offset + 3 + subrow_height, id(uth_off), id(color_black), id(color_white));
+          it.printf(x_offset + 30, y_offset + subrow_height + 2, id(arial_24), id(color_white), "%.1f°F", enclosures[i].uth_temp);
+        //  it.image(x_offset + 30, y_offset + 3 + subrow_height, id(uth_off), id(color_black), id(color_white));
         }
 
         y_offset += row_height;
       }
-

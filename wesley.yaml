@@ -1,7 +1,0 @@
-substitutions:
-  devicename: wesley
-  upper_devicename: Wesley
-  static_ip: 192.168.40.146
-  dallas_address: '0x5901204623FDFB28'
-
-<<: !include enclosure_base.yaml
