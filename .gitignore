@@ -25,3 +25,6 @@ gui/reptile-controller/generated
 gui/reptile-controller/lvgl
 gui/reptile-controller/lvgl-simulator
 gui/reptile-controller/temp
+
+reptile-monitor-power-backups/
+reptile-monitor-backups/
