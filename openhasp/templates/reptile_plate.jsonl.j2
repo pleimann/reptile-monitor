@@ -1,0 +1,25 @@
+{"page":0,"comment":"---------- All pages ----------"}
+{"page":0,"id":1,"obj":"obj","swipe":1,       "x":0,    "y":0,    "w":320,  "h":45, "opacity":0,"comment":"swipe-area-at-top"}
+{"page":0,"id":2,"obj":"btn","action":"back", "x":0,    "y":0,    "w":45,   "h":45, "bg_color":"#2C3E50","text":"\uE2DC","text_color":"#FFFFFF","radius":0,"border_side":0, "comment":"home button"}
+{"page":0,"id":3,"obj":"btn","action":"next", "x":275,  "y":0,    "w":45,   "h":45, "bg_color":"#2C3E50","text":"\uE054","text_color":"#FFFFFF","radius":0,"border_side":0, "comment":"home button"}
+
+{"page":1, "comment":"---------- Reptile Selection & Temp/Lights Control ----------"}
+{"page":1, "id":1,"obj":"btn",     "x":0,    "y":0,    "w":320,  "h":45,   "text":"REPTILES","text_font":24,"bg_color":"#2C3E50","text_color":"#FFFFFF","radius":0,"border_side":0,"click":0}
+
+{"page":2, "comment":"---------- Reptile Selection & Temp/Lights Control ----------"}
+{"page":2, "id":1,"obj":"btn",     "x":0,    "y":0,    "w":320,  "h":45,   "text":"REPTILES","text_font":24,"bg_color":"#2C3E50","text_color":"#FFFFFF","radius":0,"border_side":0,"click":0}
+
+{% for animal in animals %}
+{% set page = (loop.index0 // 4) + 1 -%}
+{"page":{{page}}, "comment":"---------- {{animal}} card ----------"}
+{"page":{{page}}, "comment":"group",      "id":{{loop.index}}0, "obj":"obj", "action": "p{{loop.index + 2}}", "x":5, "y": {{50 + ((loop.index0 % 4) * 106)}}, "w":310, "h":102, "clip_corner":true, "radius":10 }
+{"page":{{page}}, "comment":"Avatar",     "id":{{loop.index}}1, "parentid":{{loop.index}}0, "obj":"img", "auto_size":1, x:1, y:1, "w":100, "src":"/littlefs/{{ animal }}.png", "shadow_color":"#111", "shadow_width":15}
+{"page":{{page}}, "comment":"Temp",       "id":{{loop.index}}2, "parentid":{{loop.index}}0, "obj":"label", "x":115, "y":20, "w":100, "h":50, "text": "", "text_font":48}
+{"page":{{page}}, "comment":"Light",      "id":{{loop.index}}4, "parentid":{{loop.index}}0, "obj":"btn",   "x":225, "y":15, "w":70, "h":70, "text": "\uE335", "text_font":48, "radius":10, "comment":"Light", "toggle":true, "align":"center", "value":"off"}
+{% endfor %}
+
+{% for animal in animals %}
+{"page":{{loop.index + 2}}, "comment":"---------- {{animal}} page ----------"}
+{"page":{{loop.index + 2}}, "id":1, "obj":"btn",     "x":0,    "y":0,    "w":320,  "h":45,  "text":"{{animal|upper}}", "text_font":24, "bg_color":"#2C3E50", "text_color":"#FFFFFF", "radius":0, "border_side":0, "click":0}
+{"page":{{loop.index + 2}}, "id":2, "obj":"obj",     "x":5,    "y":50,   "w":310,  "h":425, "click":0 }
+{% endfor %}

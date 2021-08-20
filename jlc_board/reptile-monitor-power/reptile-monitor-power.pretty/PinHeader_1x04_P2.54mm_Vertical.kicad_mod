@@ -1,5 +1,5 @@
 (footprint "PinHeader_1x04_P2.54mm_Vertical" (version 20210623) (generator pcbnew) (layer "F.Cu")
-  (tedit 60FC2158)
+  (tedit 6117D5AD)
   (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
   (tags "Through hole pin header THT 1x04 2.54mm single row")
   (property "Sheetfile" "reptile-monitor-power.kicad_sch")
@@ -36,7 +36,7 @@
   (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 257aff25-3c38-4b06-8470-a4ecd9a553c6))
   (pad "3" thru_hole oval locked (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 0f584bb7-6d97-4472-94ef-cd3d7889922c))
   (pad "4" thru_hole oval locked (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp ff6f31b5-e44b-4998-b53b-195512d8d5bb))
-  (model "${KIPRJMOD}/reptile-monitor-power1.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+  (model "${KIPRJMOD}/reptile-monitor-power.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
