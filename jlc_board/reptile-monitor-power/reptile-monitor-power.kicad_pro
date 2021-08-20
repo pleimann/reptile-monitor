@@ -55,20 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|132914508|56154001|870c1460-02c2-42f8-9d18-307382ec9313|c96ac4fd-4314-4d52-a236-9d26f379607e",
-        "courtyards_overlap|135322002|65282994|7bf9edef-80c9-40e0-b283-c6483143b87f|c96ac4fd-4314-4d52-a236-9d26f379607e",
-        "courtyards_overlap|140404511|51282996|95aae533-1b3a-4cdf-9f74-5b24f29c36a9|c96ac4fd-4314-4d52-a236-9d26f379607e",
-        "courtyards_overlap|141414506|64487006|521c0e14-855d-4742-a704-f27bc42527b3|c96ac4fd-4314-4d52-a236-9d26f379607e",
-        "courtyards_overlap|143596981|65282994|521c0e14-855d-4742-a704-f27bc42527b3|95aae533-1b3a-4cdf-9f74-5b24f29c36a9",
-        "courtyards_overlap|147893001|51283001|95aae533-1b3a-4cdf-9f74-5b24f29c36a9|a21e9523-5b71-49ae-af13-e889366a0d3d",
-        "courtyards_overlap|148904509|64501495|8398d5e4-4eaa-4c8c-826f-02b070d74f44|95aae533-1b3a-4cdf-9f74-5b24f29c36a9",
-        "courtyards_overlap|155617001|59806001|10831392-27aa-4c5f-b32c-e0f05e0ada13|a21e9523-5b71-49ae-af13-e889366a0d3d",
-        "courtyards_overlap|155617001|59980001|10831392-27aa-4c5f-b32c-e0f05e0ada13|a21e9523-5b71-49ae-af13-e889366a0d3d",
-        "courtyards_overlap|156392999|64501495|8398d5e4-4eaa-4c8c-826f-02b070d74f44|a21e9523-5b71-49ae-af13-e889366a0d3d",
-        "silk_overlap|155867000|64230000|c83c4aa2-f7f1-4666-afda-412d3a6c5775|37a208b2-2abe-4fd8-b666-b005581ce696",
-        "silk_overlap|157901995|64230000|fecb3ab2-133e-4e07-b43a-6b976b5d73db|37a208b2-2abe-4fd8-b666-b005581ce696"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -76,7 +63,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -98,7 +85,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -365,7 +352,7 @@
     "classes": [
       {
         "bus_width": 6.0,
-        "clearance": 0.254,
+        "clearance": 0.2032,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,

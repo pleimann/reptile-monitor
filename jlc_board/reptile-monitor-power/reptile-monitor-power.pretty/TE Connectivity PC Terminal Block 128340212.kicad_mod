@@ -1,5 +1,5 @@
 (footprint "TE Connectivity PC Terminal Block 128340212" (version 20210623) (generator pcbnew) (layer "F.Cu")
-  (tedit 60FC21CC)
+  (tedit 6117D58D)
   (descr "Conn PC Terminal Block RCP 2 POS 2.5mm Solder ST Thru-Hole 5A")
   (tags "Connector")
   (property "Sheetfile" "reptile-monitor-power.kicad_sch")
@@ -30,7 +30,7 @@
   (fp_line (start -2.5 -7.3) (end 4 -7.3) (layer "F.Fab") (width 0.2) (tstamp d888048c-a874-4039-9a71-39651a7e5376))
   (pad "1" thru_hole circle locked (at 0 0) (size 1.875 1.875) (drill 1.25) (layers *.Cu *.Mask) (tstamp 821e3769-b400-44b7-9b2e-fa518e803dc7))
   (pad "2" thru_hole circle locked (at 2.5 -5) (size 1.875 1.875) (drill 1.25) (layers *.Cu *.Mask) (tstamp a01e5880-d4e0-4e85-80d8-248dc649925c))
-  (model "${KIPRJMOD}/reptile-monitor-power1.3dshapes/1-2834021-2.step"
+  (model "${KIPRJMOD}/reptile-monitor-power.3dshapes/1-2834021-2.step"
     (offset (xyz 0.4900000022 -4.679999758 0.2199999955))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

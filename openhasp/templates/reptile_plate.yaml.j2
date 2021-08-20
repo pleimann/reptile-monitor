@@ -1,0 +1,21 @@
+reptile_plate:
+  objects:
+    {% for animal in animals -%}
+    {% set page = (loop.index0 // 4) + 1 -%}
+    - obj: "p{{page}}b{{loop.index}}2"  # {{animal}}'s under tank heater temp
+      properties:
+        {% set uth_temp_name = 'sensor.' ~ animal ~ '_uth_temperature' -%}
+        {% set uth_thermostat_name = 'climate.' ~ animal ~ '_uth_thermostat' -%}
+        "text": "{{ "{{ states('" ~ uth_temp_name ~ "') }}" }}°"
+        "text_color": "{{ "{% if state_attr('" ~ uth_thermostat_name ~ "','hvac_action') == 'heating' %}blush{% else %}white{% endif %}" }}"
+    - obj: "p{{page}}b{{loop.index}}4"  # {{animal}}'s light-switch toggle button
+      properties: {% set lights_name = 'switch.' ~ animal ~ '_lights' %}
+        "val": "{{ "{{ 1 if is_state('" ~ lights_name ~ "', 'on') else 0 }}" }}"
+        "text": "{{ "{{ '\\uE6E8' if is_state('" ~ lights_name ~ "', 'on') else '\\uE335' }}" }}"
+        "text_color": "{{ "{% if is_state('" ~ lights_name ~ "', 'on') %}#4682B4{% else %}white{% endif %}" }}"
+      event:
+        "up": 
+          - service: homeassistant.toggle
+            entity_id: "switch.{{animal}}_lights"
+    
+    {% endfor %}

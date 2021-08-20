@@ -1,5 +1,5 @@
 (footprint "RV_Disc_D7mm_W3.4mm_P5mm" (version 20210623) (generator pcbnew) (layer "F.Cu")
-  (tedit 60FC2060)
+  (tedit 6117D59E)
   (descr "Varistor, diameter 7mm, width 3.4mm, pitch 5mm")
   (tags "varistor SIOV")
   (property "Sheetfile" "reptile-monitor-power.kicad_sch")
@@ -31,7 +31,7 @@
   (fp_line (start -1 -1.05) (end -1 2.35) (layer "F.Fab") (width 0.1) (tstamp fa1ad59b-d99f-40f1-85a9-47f0519010e9))
   (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.6) (layers *.Cu *.Mask) (tstamp 20536276-9e88-486a-bc85-71bbe16f9cba))
   (pad "2" thru_hole circle (at 5 1.3) (size 1.6 1.6) (drill 0.6) (layers *.Cu *.Mask) (tstamp f9aa4f99-f96f-4728-aa97-82b920eb2fab))
-  (model "${KIPRJMOD}/reptile-monitor-power1.3dshapes/RV_Disc_D7mm_W3.4mm_P5mm.step"
+  (model "${KIPRJMOD}/reptile-monitor-power.3dshapes/RV_Disc_D7mm_W3.4mm_P5mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

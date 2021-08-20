@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "reptile-monitor-power")(type "KiCad")(uri "${KIPRJMOD}/reptile-monitor-power.pretty")(options "")(descr ""))
+  (lib (name "reptile-monitor")(type "KiCad")(uri "C:/Workspace/reptile-monitor/jlc_board/reptile-monitor.pretty")(options "")(descr ""))
 )

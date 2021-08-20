@@ -1,0 +1,53 @@
+{"page":0,"comment":"---------- All pages ----------"}
+{"page":0,"id":1,"obj":"obj","swipe":1,       "x":0,    "y":0,    "w":320,  "h":40, "opacity":0,"comment":"swipe-area-at-top"}
+{"page":0,"id":2,"obj":"btn","action":"back", "x":0,    "y":0,    "w":40,   "h":40, "bg_color":"#2C3E50","text":"\uE2DC","text_color":"#FFFFFF","radius":0,"border_side":0, "comment":"home button"}
+
+{"page":1, "comment":"---------- Reptile Selection & Temp/Lights Control ----------"}
+{"page":1, "id":1,"obj":"btn",     "x":0,    "y":0,    "w":320,  "h":40,   "text":"REPTILES","text_font":16,"bg_color":"#2C3E50","text_color":"#FFFFFF","radius":0,"border_side":0,"click":0}
+
+
+{"page":1, "comment":"---------- wesley ----------"}
+{"page":1, "id":10, "obj":"obj", "action": "p3",     "x":5,    "y": 45,  "w":310, "h":102, "clip_corner":true }
+{"page":1, "id":11, "parentid":20, "obj":"img", "auto_size":1, x:1, y:1, "w":100, "image_opa":128, "src":"/littlefs/wesley.png"}
+{"page":1, "id":12, "parentid":20, "obj":"label", "x":105, "y":5, "w":65,  "text": "\uE50F90°", "text_color":"white", "comment":"Temp"}
+{"page":1, "id":13, "parentid":20, "obj":"label", "x":160, "y":5, "w":20,  "text": "\uE238", "text_color":"white", "comment":"Temp"}
+{"page":1, "id":14, "parentid":20, "obj":"btn", "x":225, "y":5, "w":30, "text": "\uE6E8#", "text_color":"white", "comment":"Light", "toggle":true, "align":"center", "radius":50}
+
+{"page":1, "comment":"---------- winnie ----------"}
+{"page":1, "id":20, "obj":"obj", "action": "p3",     "x":5,    "y": 45,  "w":310, "h":102, "clip_corner":true }
+{"page":1, "id":21, "parentid":20, "obj":"img", "auto_size":1, x:1, y:1, "w":100, "image_opa":128, "src":"/littlefs/winnie.png"}
+{"page":1, "id":22, "parentid":20, "obj":"label", "x":105, "y":5, "w":65,  "text": "\uE50F90°", "text_color":"white", "comment":"Temp"}
+{"page":1, "id":23, "parentid":20, "obj":"label", "x":160, "y":5, "w":20,  "text": "\uE238", "text_color":"white", "comment":"Temp"}
+{"page":1, "id":24, "parentid":20, "obj":"btn", "x":225, "y":5, "w":30, "text": "\uE6E8#", "text_color":"white", "comment":"Light", "toggle":true, "align":"center", "radius":50}
+
+{"page":1, "comment":"---------- waffle ----------"}
+{"page":1, "id":30, "obj":"obj", "action": "p3",     "x":5,    "y": 45,  "w":310, "h":102, "clip_corner":true }
+{"page":1, "id":31, "parentid":20, "obj":"img", "auto_size":1, x:1, y:1, "w":100, "image_opa":128, "src":"/littlefs/waffle.png"}
+{"page":1, "id":32, "parentid":20, "obj":"label", "x":105, "y":5, "w":65,  "text": "\uE50F90°", "text_color":"white", "comment":"Temp"}
+{"page":1, "id":33, "parentid":20, "obj":"label", "x":160, "y":5, "w":20,  "text": "\uE238", "text_color":"white", "comment":"Temp"}
+{"page":1, "id":34, "parentid":20, "obj":"btn", "x":225, "y":5, "w":30, "text": "\uE6E8#", "text_color":"white", "comment":"Light", "toggle":true, "align":"center", "radius":50}
+
+{"page":1, "comment":"---------- wilson ----------"}
+{"page":1, "id":40, "obj":"obj", "action": "p3",     "x":5,    "y": 45,  "w":310, "h":102, "clip_corner":true }
+{"page":1, "id":41, "parentid":20, "obj":"img", "auto_size":1, x:1, y:1, "w":100, "image_opa":128, "src":"/littlefs/wilson.png"}
+{"page":1, "id":42, "parentid":20, "obj":"label", "x":105, "y":5, "w":65,  "text": "\uE50F90°", "text_color":"white", "comment":"Temp"}
+{"page":1, "id":43, "parentid":20, "obj":"label", "x":160, "y":5, "w":20,  "text": "\uE238", "text_color":"white", "comment":"Temp"}
+{"page":1, "id":44, "parentid":20, "obj":"btn", "x":225, "y":5, "w":30, "text": "\uE6E8#", "text_color":"white", "comment":"Light", "toggle":true, "align":"center", "radius":50}
+
+
+
+{"page":3, "comment":"---------- Wesley Page ----------"
+{"page":3, "id":1, "obj":"btn",     "x":0,    "y":0,    "w":320,  "h":40,  "text_font":16,"bg_color":"#2C3E50","text_color":"#FFFFFF","radius":0,"border_side":0,"click":0}
+{"page":3, "id":2, "obj":"obj",     "x":5,    "y":45,   "w":310,  "h":430,  "click":0 }
+
+{"page":4, "comment":"---------- Wesley Page ----------"
+{"page":4, "id":1, "obj":"btn",     "x":0,    "y":0,    "w":320,  "h":40,  "text_font":16,"bg_color":"#2C3E50","text_color":"#FFFFFF","radius":0,"border_side":0,"click":0}
+{"page":4, "id":2, "obj":"obj",     "x":5,    "y":45,   "w":310,  "h":430,  "click":0 }
+
+{"page":5, "comment":"---------- Wesley Page ----------"
+{"page":5, "id":1, "obj":"btn",     "x":0,    "y":0,    "w":320,  "h":40,  "text_font":16,"bg_color":"#2C3E50","text_color":"#FFFFFF","radius":0,"border_side":0,"click":0}
+{"page":5, "id":2, "obj":"obj",     "x":5,    "y":45,   "w":310,  "h":430,  "click":0 }
+
+{"page":6, "comment":"---------- Wesley Page ----------"
+{"page":6, "id":1, "obj":"btn",     "x":0,    "y":0,    "w":320,  "h":40,  "text_font":16,"bg_color":"#2C3E50","text_color":"#FFFFFF","radius":0,"border_side":0,"click":0}
+{"page":6, "id":2, "obj":"obj",     "x":5,    "y":45,   "w":310,  "h":430,  "click":0 }
