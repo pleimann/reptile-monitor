@@ -1,5 +1,5 @@
 (footprint "JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" (version 20210623) (generator pcbnew) (layer "F.Cu")
-  (tedit 60FC2BC6)
+  (tedit 61205F27)
   (descr "JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator")
   (tags "connector JST SH top entry")
   (property "Sheetfile" "reptile-monitor.kicad_sch")
