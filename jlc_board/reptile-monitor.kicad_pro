@@ -418,8 +418,7 @@
         "nets": [
           "+3V3",
           "+5V",
-          "GND",
-          "Net-(D3-Pad2)"
+          "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
