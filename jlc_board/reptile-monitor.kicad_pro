@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.127,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.508
         }
       },
@@ -362,7 +362,9 @@
     "pinned_footprint_libs": [
       "reptile-monitor"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "reptile-monitor"
+    ]
   },
   "meta": {
     "filename": "reptile-monitor.kicad_pro",
@@ -418,6 +420,8 @@
         "nets": [
           "+3V3",
           "+5V",
+          "/5V_IN",
+          "/PWR_IN",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
