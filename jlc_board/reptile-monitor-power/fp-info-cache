@@ -1,4 +1,4 @@
-19577892208858506
+19599175211029592
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84371,6 +84371,27 @@ capacitor
 2
 2
 reptile-monitor
+D_SMA
+Diode SMA (DO-214AC)
+Diode SMA (DO-214AC)
+0
+2
+2
+reptile-monitor
+D_SOD-123F
+D_SOD-123F
+D_SOD-123F
+0
+2
+2
+reptile-monitor
+D_SOD-323
+SOD-323
+SOD-323
+0
+2
+2
+reptile-monitor
 D_SOD-523
 http://www.diodes.com/datasheets/ap02001.pdf p.144
 Diode SOD523
@@ -84413,12 +84434,26 @@ LOGO
 0
 0
 reptile-monitor
-L_0603_1608Metric_Pad1.05x0.95mm_HandSolder
-Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-inductor handsolder
+L_0603_1608Metric
+Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+inductor
 0
 2
 2
+reptile-monitor
+Mallory_Sonalert_Products_Inc-AST7525MATRQ-0-0-MFG
+
+
+0
+4
+4
+reptile-monitor
+Molex-52746-1871
+
+
+0
+20
+20
 reptile-monitor
 MountingHole_2.2mm_M2_ISO7380
 Mounting Hole 2.2mm, no annular, M2, ISO7380
@@ -84426,6 +84461,20 @@ mounting hole 2.2mm no annular m2 iso7380
 0
 0
 0
+reptile-monitor
+Panasonic-EVQ-P7A01P-0-0-MFG
+
+
+0
+4
+4
+reptile-monitor
+PinHeader_1x06_P2.54mm_Vertical
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
 reptile-monitor
 PinHeader_1x07_P2.54mm_Vertical
 Through hole straight pin header, 1x07, 2.54mm pitch, single row
@@ -84437,6 +84486,20 @@ reptile-monitor
 PinSocket_1x04_P2.54mm_Vertical
 Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x04 2.54mm single row
+0
+4
+4
+reptile-monitor
+PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Left
+surface-mounted straight socket strip, 1x04, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
+Surface mounted socket strip SMD 1x04 2.54mm single row style1 pin1 left
+0
+4
+4
+reptile-monitor
+PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Right
+surface-mounted straight socket strip, 1x04, 2.54mm pitch, single row, style 2 (pin 1 right) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated
+Surface mounted socket strip SMD 1x04 2.54mm single row style2 pin1 right
 0
 4
 4
@@ -84461,6 +84524,34 @@ Integrated Circuit
 0
 8
 8
+reptile-monitor
+SOP65P490X110-8N
+
+
+0
+8
+8
+reptile-monitor
+SOT-23
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+reptile-monitor
+TE_1-1734592-8
+
+
+0
+20
+20
+reptile-monitor
+TE_1-1734742-8
+
+
+0
+20
+20
 reptile-monitor
 VSSOP-8_3.0x3.0mm_P0.65mm
 VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf
