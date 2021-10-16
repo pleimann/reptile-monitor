@@ -3613,7 +3613,7 @@
     (in_bom yes) (on_board yes)
     (uuid fc079a75-5d2a-4a20-adc7-e530c9b8fd5b)
     (property "Reference" "D2" (id 0) (at 36.83 175.133 0))
-    (property "Value" "IO5" (id 1) (at 36.83 172.9994 0))
+    (property "Value" "GRN" (id 1) (at 36.83 172.9994 0))
     (property "Footprint" "reptile-monitor:LED_0603_1608Metric" (id 2) (at 36.83 170.18 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4584,7 +4584,7 @@
       (reference "D1") (unit 1) (value "PWR") (footprint "reptile-monitor:LED_0603_1608Metric")
     )
     (path "/fc079a75-5d2a-4a20-adc7-e530c9b8fd5b"
-      (reference "D2") (unit 1) (value "IO5") (footprint "reptile-monitor:LED_0603_1608Metric")
+      (reference "D2") (unit 1) (value "GRN") (footprint "reptile-monitor:LED_0603_1608Metric")
     )
     (path "/7556ce11-7b17-4f6a-aeac-b8d0b54b9356"
       (reference "D3") (unit 1) (value "Schottky") (footprint "reptile-monitor:D_SOD-323")
