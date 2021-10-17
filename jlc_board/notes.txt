@@ -1,0 +1,4 @@
+resistor network symbol is wrong
+button has nubs on bottom
+button could use longer pads 
+button SHOULD STICK OUT OFF THE BOARD
