@@ -418,7 +418,6 @@
         "nets": [
           "+3V3",
           "+5V",
-          "/5V_IN",
           "/PWR_IN",
           "GND"
         ],
@@ -441,7 +440,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "reptile-monitor.step",
+      "step": "reptile-monitor-rev4.5.step",
       "vrml": ""
     },
     "page_layout_descr_file": "default.kicad_wks"

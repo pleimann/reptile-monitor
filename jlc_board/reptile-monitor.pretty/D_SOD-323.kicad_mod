@@ -1,5 +1,5 @@
 (footprint "D_SOD-323" (version 20210623) (generator pcbnew) (layer "F.Cu")
-  (tedit 613CA2D7)
+  (tedit 616C2B86)
   (descr "SOD-323")
   (tags "SOD-323")
   (attr smd)
@@ -32,9 +32,9 @@
   (fp_line (start 0.9 -0.7) (end 0.9 0.7) (layer "F.Fab") (width 0.1) (tstamp acffd99a-8ddf-4112-be89-daf51420415f))
   (fp_line (start -0.3 0) (end -0.5 0) (layer "F.Fab") (width 0.1) (tstamp c106a00d-3f95-4e59-aa5a-6a9687090e28))
   (fp_line (start -0.9 -0.7) (end 0.9 -0.7) (layer "F.Fab") (width 0.1) (tstamp de221665-d514-452b-af93-9f9ea350413b))
-  (pad "1" smd rect locked (at -1.05 0) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e2ecdec6-d111-40e0-8eaf-782c251d8104))
-  (pad "2" smd rect locked (at 1.05 0) (size 0.6 0.45) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0ff1b879-2b08-47f5-8069-75bb4847d6a6))
-  (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.step" hide
+  (pad "1" smd rect locked (at -1.05 0) (size 0.8 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e2ecdec6-d111-40e0-8eaf-782c251d8104))
+  (pad "2" smd rect locked (at 1.05 0) (size 0.8 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0ff1b879-2b08-47f5-8069-75bb4847d6a6))
+  (model "${KIPRJMOD}/reptile-monitor.3dshapes/D_SOD-323.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
