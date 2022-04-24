@@ -1,5 +1,5 @@
 (footprint "Panasonic-EVQ-P7A01P" (version 20211014) (generator pcbnew) (layer "F.Cu")
-  (tedit 61B1692F)
+  (tedit 61B2898E)
   (attr through_hole)
   (fp_text reference "REF**" (at -1.925 -2.75) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
@@ -27,13 +27,12 @@
   (fp_line (start 1.85 -1.875) (end 1.85 1.875) (layer "F.Fab") (width 0.15) (tstamp 0fb7acca-63c9-435c-ad8f-8347c5de3ee4))
   (fp_line (start -1.85 -1.875) (end 1.85 -1.875) (layer "F.Fab") (width 0.15) (tstamp c253b818-1c53-400a-8acd-8ca91a5611d2))
   (fp_line (start 1.85 1.875) (end -1.85 1.875) (layer "F.Fab") (width 0.15) (tstamp d1b80368-dd2b-4208-8395-2b8316e36f4c))
-  (pad "" smd rect (at 0 -1.8) (size 0.6 0.4) (layers "F.Cu" "F.Mask") (tstamp 72c99f80-9d88-4e35-9520-139cc2f7fbb4))
   (pad "1" smd rect (at -2.1 -0.65) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9761e45e-1abb-42e3-b062-20afd563c1d2))
   (pad "1'" smd rect (at 2.1 -0.65) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8f4a468c-e15a-4028-9a38-0d783fcda9ca))
   (pad "2" smd rect (at -2.1 0.65) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fc16c8ae-eae3-476d-838c-3eba3b1766c3))
   (pad "2'" smd rect (at 2.1 0.65) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c34d1684-0769-4746-9478-135f23969152))
-  (model "eec.models/Panasonic_-_EVQ-P7A01P.step"
-    (offset (xyz 436.0304143 -0.7894827881 -91.26687223))
+  (model "${KIPRJMOD}/reptile-monitor.3dshapes/Panasonic_-_EVQ-P7A01P.step"
+    (offset (xyz 17.17 -0.32 -3.6))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
