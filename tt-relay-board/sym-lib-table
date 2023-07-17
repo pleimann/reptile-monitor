@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "tt-relay-board")(type "KiCad")(uri "${KIPRJMOD}/tt-relay-board.kicad_sym")(options "")(descr ""))
+  (lib (name "reptile-monitor")(type "KiCad")(uri "${KIPRJMOD}/../jlc_board/reptile-monitor.kicad_sym")(options "")(descr ""))
+  (lib (name "reptile-monitor-power")(type "KiCad")(uri "${KIPRJMOD}/../jlc_board/reptile-monitor-power/reptile-monitor-power.kicad_sym")(options "")(descr ""))
+)

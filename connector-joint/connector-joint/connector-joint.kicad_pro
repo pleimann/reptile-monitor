@@ -44,18 +44,18 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": true,
+          "45_degree_only": false,
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|171810001|95250000|0c0d8e44-9546-4817-8dd1-51f5d96859d6|37fb8a8c-12d9-4a34-96cf-d0e9bec77b18",
+        "silk_over_copper|165640000|91440000|9812b18d-6890-446d-b3cf-0861ce6549cd|e2f8b762-62d1-42a9-8e8a-3bf9c97f0b16",
+        "silk_over_copper|169640000|91440000|9812b18d-6890-446d-b3cf-0861ce6549cd|726c887b-98a4-418d-b3bc-ac4e16a16dc8",
+        "silk_over_copper|179070000|106458000|22a8945a-f1c4-4530-a4ac-03e61aa37113|51f7f8ab-8d60-4848-9246-031d1a79aeb4",
+        "silk_over_copper|179070000|110458000|22a8945a-f1c4-4530-a4ac-03e61aa37113|83a13ddb-f963-4910-aee0-a92b9b397c70"
       ],
-      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -63,7 +63,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -85,8 +85,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "error",
-        "silk_overlap": "ignore",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -105,7 +105,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.0,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
@@ -118,16 +118,9 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [
-        0.0
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
-      "zones_allow_external_fillets": true,
+      "track_widths": [],
+      "via_dimensions": [],
+      "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
     "layer_presets": []
@@ -342,20 +335,18 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "reptile-monitor-power"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "reptile-monitor-power.kicad_pro",
+    "filename": "connector-joint.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
-        "bus_width": 6.0,
-        "clearance": 0.2032,
+        "bus_width": 12.0,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -365,9 +356,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "via_diameter": 0.762,
-        "via_drill": 0.4572,
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6.0
       }
     ],
@@ -380,9 +371,9 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "../../../../Program Files/KiCad/6.0/",
+      "netlist": "",
       "specctra_dsn": "",
-      "step": "reptile-monitor-power.step",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -390,11 +381,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
-      "default_bus_thickness": 12.0,
-      "default_junction_size": 36.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "default_wire_thickness": 6.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
@@ -402,13 +390,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
       "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.3
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "",
     "ngspice": {
@@ -429,7 +418,7 @@
   },
   "sheets": [
     [
-      "2007ab68-364d-4df3-8ec7-a16509b70aef",
+      "88756da8-e111-4b08-9dca-4f421ab400a5",
       ""
     ]
   ],

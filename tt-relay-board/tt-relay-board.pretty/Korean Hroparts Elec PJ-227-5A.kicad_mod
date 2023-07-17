@@ -66,9 +66,4 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )
-  (model "${KIPRJMOD}/tt-relay-board.3dshapes/Korean Hroparts Elec PJ-227-5A.step" hide
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

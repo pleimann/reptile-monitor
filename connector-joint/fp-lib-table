@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "tt-relay-board")(type "KiCad")(uri "C:/Workspace/reptile-monitor/tt-relay-board/tt-relay-board.pretty")(options "")(descr ""))
+  (lib (name "reptile-monitor")(type "KiCad")(uri "C:/Workspace/reptile-monitor/jlc_board/reptile-monitor.pretty")(options "")(descr ""))
+)
