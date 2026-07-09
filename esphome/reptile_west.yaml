@@ -1,0 +1,107 @@
+substitutions:
+  device_name: reptile_west
+  friendly_name: Reptile West
+
+esphome:
+  name: ${device_name}
+  comment: Reptile Controller - ${friendly_name}
+  platform: ESP32
+  board: esp32dev
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  manual_ip:
+    static_ip: 192.168.12.124
+    gateway: 192.168.12.1
+    subnet: 255.255.255.0
+  hostname: ${device_name}
+
+logger:
+  level: DEBUG
+  baud_rate: 115200
+
+api:
+
+ota:
+
+web_server:
+  port: 80
+
+mdns:
+  services:
+    - _esphome._tcp
+    - _http._tcp
+
+time:
+  - platform: homeassistant
+    id: esptime
+
+status_led:
+  pin:
+    number: GPIO2
+
+output:
+  - platform: gpio
+    pin: GPIO25
+    id: lights_output
+  - platform: ledc
+    pin: GPIO4
+    id: rtttl_output
+
+light:
+  - platform: binary
+    name: "${friendly_name} - Lights"
+    id: reptile_west_lights
+    output: lights_output
+
+switch:
+  - platform: gpio
+    name: "Wallace - UTH"
+    pin: GPIO26
+    id: wallace_uth
+    icon: mdi:fire
+    restore_mode: ALWAYS_OFF
+  - platform: gpio
+    name: "Pickett - UTH"
+    pin: GPIO33
+    id: pickett_uth
+    icon: mdi:fire
+    restore_mode: ALWAYS_OFF
+  - platform: gpio
+    name: "Winnie - UTH"
+    pin: GPIO32
+    id: winnie_uth
+    icon: mdi:fire
+    restore_mode: ALWAYS_OFF
+
+rtttl:
+  output: rtttl_output
+  gain: 0.6
+
+dallas:
+  - pin: GPIO18
+    update_interval: 60s
+
+sensor:
+  - platform: dallas
+    address: 0x5d3c01f096438628
+    id: wallace_uth_temperature
+    name: "Wallace - UTH Temperature"
+    unit_of_measurement: "°C"
+    accuracy_decimals: 1
+
+climate:
+  - platform: bang_bang
+    name: "Wallace - UTH Thermostat"
+    sensor: wallace_uth_temperature
+    visual:
+      min_temperature: 25 °C
+      max_temperature: 35 °C
+      temperature_step: 0.1 °C
+    default_target_temperature_low: 31.11 °C
+    default_target_temperature_high: 33.33 °C
+    heat_action:
+      - switch.turn_on: wallace_uth
+    idle_action:
+      - switch.turn_off: wallace_uth

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ConnectorJoint")(type "KiCad")(uri "/Users/mike/Workspace/reptile-monitor/connector-joint-v2")(options "")(descr ""))
+)

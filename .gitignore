@@ -9,6 +9,7 @@
 **/*.bak
 **/platformio.ini
 /secrets.yaml
+.DS_Store
 
 .esphome
 monitor
@@ -17,14 +18,22 @@ waffle
 wesley
 
 jlc_board/reptile-monitor-backups
+jlc_board/reptile-monitor-rounded-backups
 jlc_board/fp-info-cache
 jlc_board/fp-lib-table
 jlc_board/gerbers
 jlc_board/reptile-monitor.kicad_prl
+
+connector-joint/connector-joint-backups
+connector-joint-v2/connector-joint-backups
+connector-joint-v2/gerbers
+
+tt-relay-board/tt-relay-board-backups
+
 gui/reptile-controller/generated
 gui/reptile-controller/lvgl
 gui/reptile-controller/lvgl-simulator
 gui/reptile-controller/temp
 
-reptile-monitor-power-backups/
-reptile-monitor-backups/
+reptile-monitor-power-backups
+reptile-monitor-backups
